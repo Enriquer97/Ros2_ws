@@ -1,0 +1,4 @@
+msg/PointArray.idl
+msg/PointArray.msg
+msg/Vector3Array.idl
+msg/Vector3Array.msg

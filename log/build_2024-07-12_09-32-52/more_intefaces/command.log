@@ -1,0 +1,2 @@
+Invoking command in '/home/enrique/ros2_ws/build/more_intefaces': CMAKE_PREFIX_PATH=/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake /home/enrique/ros2_ws/src/more_intefaces -DCMAKE_INSTALL_PREFIX=/home/enrique/ros2_ws/install/more_intefaces
+Invoked command in '/home/enrique/ros2_ws/build/more_intefaces' returned '1': CMAKE_PREFIX_PATH=/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake /home/enrique/ros2_ws/src/more_intefaces -DCMAKE_INSTALL_PREFIX=/home/enrique/ros2_ws/install/more_intefaces

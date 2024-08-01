@@ -1,0 +1,73 @@
+[0.013s] Invoking command in '/home/enrique/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enrique/ros2_ws/build/more_interfaces -- -j8 -l8
+[0.051s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.405s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.410s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.421s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.059s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.911s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.206s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.209s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.250s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.250s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.250s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.250s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.285s] -- Found PythonExtra: .so  
+[2.416s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.466s] -- Added test 'lint_cmake' to check CMake code style
+[2.472s] -- Added test 'xmllint' to check XML markup files
+[2.480s] -- Configuring done
+[2.552s] -- Generating done
+[2.557s] -- Build files have been written to: /home/enrique/ros2_ws/build/more_interfaces
+[2.608s] [  6%] Built target more_interfaces__cpp
+[2.609s] [  6%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/point_array__functions.c.o[0m
+[2.622s] [  6%] Built target ament_cmake_python_copy_more_interfaces
+[2.642s] [  9%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/point_array__type_support.cpp.o[0m
+[2.643s] In file included from [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/point_array__functions.h:19[m[K,
+[2.643s]                  from [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/point_array__functions.c:4[m[K:
+[2.643s] [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_generator_c/more_interfaces/msg/detail/point_array__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/point__struct.h: No such file or directory
+[2.644s]    22 | #include [01;31m[K"geometry_msgs/msg/detail/point__struct.h"[m[K
+[2.644s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.644s] compilation terminated.
+[2.645s] [ 12%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/point_array__type_support.cpp.o[0m
+[2.646s] gmake[2]: *** [CMakeFiles/more_interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/point_array__functions.c.o] Error 1
+[2.647s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/more_interfaces__rosidl_generator_c.dir/all] Error 2
+[2.647s] gmake[1]: *** Waiting for unfinished jobs....
+[2.651s] [ 16%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[2.745s] In file included from [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[2.746s]                  from [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/point_array__type_support.cpp:4[m[K:
+[2.746s] [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/point_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/point__struct.hpp: No such file or directory
+[2.746s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/point__struct.hpp"[m[K
+[2.746s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.746s] compilation terminated.
+[2.747s] In file included from [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_typesupport_cpp/more_interfaces/msg/point_array__type_support.cpp:7[m[K:
+[2.747s] [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/point_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/point__struct.hpp: No such file or directory
+[2.747s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/point__struct.hpp"[m[K
+[2.747s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.748s] compilation terminated.
+[2.749s] gmake[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/point_array__type_support.cpp.o] Error 1
+[2.750s] gmake[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/point_array__type_support.cpp.o] Error 1
+[2.750s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[2.750s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[2.762s] In file included from [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/point_array__type_support.cpp:12[m[K:
+[2.762s] [01m[K/home/enrique/ros2_ws/build/more_interfaces/rosidl_generator_cpp/more_interfaces/msg/detail/point_array__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/point__struct.hpp: No such file or directory
+[2.762s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/point__struct.hpp"[m[K
+[2.762s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.763s] compilation terminated.
+[2.764s] gmake[2]: *** [CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/point_array__type_support.cpp.o] Error 1
+[2.764s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[3.018s] running egg_info
+[3.019s] creating more_interfaces.egg-info
+[3.019s] writing more_interfaces.egg-info/PKG-INFO
+[3.020s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[3.020s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[3.020s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.024s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.025s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.065s] [ 16%] Built target ament_cmake_python_build_more_interfaces_egg
+[3.067s] gmake: *** [Makefile:146: all] Error 2
+[3.071s] Invoked command in '/home/enrique/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enrique/ros2_ws/build/more_interfaces -- -j8 -l8

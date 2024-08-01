@@ -1,0 +1,19 @@
+[0.640s] Invoking command in '/home/enrique/ros2_ws/build/example_pkg': PYTHONPATH=/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/enrique/ros2_ws/build/example_pkg/build --no-deps symlink_data
+[0.910s] running develop
+[0.910s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.910s]   warnings.warn(
+[1.081s] running egg_info
+[1.081s] writing example_pkg.egg-info/PKG-INFO
+[1.082s] writing dependency_links to example_pkg.egg-info/dependency_links.txt
+[1.082s] writing entry points to example_pkg.egg-info/entry_points.txt
+[1.082s] writing requirements to example_pkg.egg-info/requires.txt
+[1.082s] writing top-level names to example_pkg.egg-info/top_level.txt
+[1.084s] reading manifest file 'example_pkg.egg-info/SOURCES.txt'
+[1.084s] writing manifest file 'example_pkg.egg-info/SOURCES.txt'
+[1.086s] running build_ext
+[1.086s] Creating /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example-pkg.egg-link (link to .)
+[1.087s] Installing test_node = example_pkg.example_node:mainp_node script to /home/enrique/ros2_ws/install/example_pkg/lib/example_pkg
+[1.087s] 
+[1.087s] Installed /home/enrique/ros2_ws/build/example_pkg
+[1.087s] running symlink_data
+[1.115s] Invoked command in '/home/enrique/ros2_ws/build/example_pkg' returned '0': PYTHONPATH=/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/enrique/ros2_ws/build/example_pkg/build --no-deps symlink_data

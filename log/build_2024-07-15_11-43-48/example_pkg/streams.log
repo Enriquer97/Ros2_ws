@@ -1,0 +1,40 @@
+[0.808s] Invoking command in '/home/enrique/ros2_ws/build/example_pkg': PYTHONPATH=/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/enrique/ros2_ws/build/example_pkg/build
+[1.154s] running develop
+[1.155s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.155s]   warnings.warn(
+[1.370s] Removing /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example-pkg.egg-link (link to .)
+[1.404s] Invoked command in '/home/enrique/ros2_ws/build/example_pkg' returned '0': PYTHONPATH=/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/enrique/ros2_ws/build/example_pkg/build
+[1.406s] Invoking command in '/home/enrique/ros2_ws/src/example_pkg': PYTHONPATH=/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_pkg build --build-base /home/enrique/ros2_ws/build/example_pkg/build install --record /home/enrique/ros2_ws/build/example_pkg/install.log --single-version-externally-managed install_data --force
+[1.725s] running egg_info
+[1.726s] writing ../../build/example_pkg/example_pkg.egg-info/PKG-INFO
+[1.726s] writing dependency_links to ../../build/example_pkg/example_pkg.egg-info/dependency_links.txt
+[1.726s] writing entry points to ../../build/example_pkg/example_pkg.egg-info/entry_points.txt
+[1.727s] writing requirements to ../../build/example_pkg/example_pkg.egg-info/requires.txt
+[1.727s] writing top-level names to ../../build/example_pkg/example_pkg.egg-info/top_level.txt
+[1.731s] reading manifest file '../../build/example_pkg/example_pkg.egg-info/SOURCES.txt'
+[1.734s] writing manifest file '../../build/example_pkg/example_pkg.egg-info/SOURCES.txt'
+[1.734s] running build
+[1.734s] running build_py
+[1.735s] copying example_pkg/publisherList_node.py -> /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg
+[1.735s] copying example_pkg/publisher_node.py -> /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg
+[1.735s] copying example_pkg/example_node.py -> /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg
+[1.736s] running install
+[1.737s] running install_lib
+[1.738s] creating /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg
+[1.739s] copying /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg/__init__.py -> /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg
+[1.739s] copying /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg/publisherList_node.py -> /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg
+[1.739s] copying /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg/publisher_node.py -> /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg
+[1.740s] copying /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg/example_node.py -> /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg
+[1.740s] byte-compiling /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg/__init__.py to __init__.cpython-310.pyc
+[1.741s] byte-compiling /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg/publisherList_node.py to publisherList_node.cpython-310.pyc
+[1.742s] byte-compiling /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg/publisher_node.py to publisher_node.cpython-310.pyc
+[1.743s] byte-compiling /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg/example_node.py to example_node.cpython-310.pyc
+[1.743s] running install_data
+[1.744s] copying resource/example_pkg -> /home/enrique/ros2_ws/install/example_pkg/share/ament_index/resource_index/packages
+[1.749s] copying package.xml -> /home/enrique/ros2_ws/install/example_pkg/share/example_pkg
+[1.749s] running install_egg_info
+[1.753s] Copying ../../build/example_pkg/example_pkg.egg-info to /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg-0.0.0-py3.10.egg-info
+[1.755s] running install_scripts
+[1.796s] Installing test_node script to /home/enrique/ros2_ws/install/example_pkg/lib/example_pkg
+[1.797s] writing list of installed files to '/home/enrique/ros2_ws/build/example_pkg/install.log'
+[1.828s] Invoked command in '/home/enrique/ros2_ws/src/example_pkg' returned '0': PYTHONPATH=/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_pkg build --build-base /home/enrique/ros2_ws/build/example_pkg/build install --record /home/enrique/ros2_ws/build/example_pkg/install.log --single-version-externally-managed install_data --force

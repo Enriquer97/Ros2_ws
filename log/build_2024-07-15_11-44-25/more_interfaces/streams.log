@@ -1,0 +1,9 @@
+[0.012s] Invoking command in '/home/enrique/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enrique/ros2_ws/build/more_interfaces -- -j8 -l8
+[0.068s] failed to create symbolic link '/home/enrique/ros2_ws/build/more_interfaces/ament_cmake_python/more_interfaces/more_interfaces' because existing path cannot be removed: Is a directory
+[0.068s] [  2%] Built target more_interfaces__cpp
+[0.069s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_more_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_more_interfaces] Error 1
+[0.069s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_more_interfaces.dir/all] Error 2
+[0.069s] gmake[1]: *** Waiting for unfinished jobs....
+[0.069s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.070s] gmake: *** [Makefile:146: all] Error 2
+[0.073s] Invoked command in '/home/enrique/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enrique/ros2_ws/build/more_interfaces -- -j8 -l8

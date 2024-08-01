@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000332] (example_pkg) JobQueued: {'identifier': 'example_pkg', 'dependencies': OrderedDict([('more_interfaces', '/home/enrique/ros2_ws/install/more_interfaces')])}
+[0.000392] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.016542] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.018183] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.019871] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/enrique/ros2_ws/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/enrique/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'enrique'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/enrique/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/enrique'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1751'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a7880583fb173689f9d572766a73d33'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/enrique/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'enrique'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'enrique'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/enrique/.dotnet/tools'), ('SESSION_MANAGER', 'local/enrique-Lenovo-ideapad-320S-14IKB:@/tmp/.ICE-unix/1751,unix/enrique-Lenovo-ideapad-320S-14IKB:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/32c1b5d0_d67b_48a5_80e2_4635282052d7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/enrique/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YFAYR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.258'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/enrique/ros2_ws/install/example_pkg:/home/enrique/ros2_ws/install/more_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/enrique/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a7880583fb173689f9d572766a73d33'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/enrique/ros2_ws/install/more_interfaces:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098873] (-) TimerEvent: {}
+[0.177806] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target more_interfaces__cpp\n'}
+[0.187155] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.202259] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[0.202668] (-) TimerEvent: {}
+[0.252124] (more_interfaces) StdoutLine: {'line': b'[ 23%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.258821] (more_interfaces) StdoutLine: {'line': b'[ 33%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.265986] (more_interfaces) StdoutLine: {'line': b'[ 43%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.270122] (more_interfaces) StdoutLine: {'line': b'[ 53%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.272405] (more_interfaces) StdoutLine: {'line': b'[ 64%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.280782] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.302834] (-) TimerEvent: {}
+[0.322926] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target more_interfaces\n'}
+[0.363981] (more_interfaces) StdoutLine: {'line': b'[ 76%] Built target more_interfaces__py\n'}
+[0.403416] (-) TimerEvent: {}
+[0.414837] (more_interfaces) StdoutLine: {'line': b'[ 84%] Built target more_interfaces__rosidl_generator_py\n'}
+[0.483507] (more_interfaces) StdoutLine: {'line': b'[ 89%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.486465] (more_interfaces) StdoutLine: {'line': b'[100%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.487118] (more_interfaces) StdoutLine: {'line': b'[100%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.503526] (-) TimerEvent: {}
+[0.603975] (-) TimerEvent: {}
+[0.704492] (-) TimerEvent: {}
+[0.805061] (-) TimerEvent: {}
+[0.905571] (-) TimerEvent: {}
+[1.006582] (-) TimerEvent: {}
+[1.109598] (-) TimerEvent: {}
+[1.210569] (-) TimerEvent: {}
+[1.311539] (-) TimerEvent: {}
+[1.363620] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.375635] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[1.376349] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[1.377370] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[1.386081] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[1.393793] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[1.412111] (-) TimerEvent: {}
+[1.514422] (-) TimerEvent: {}
+[1.553583] (more_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[1.614978] (-) TimerEvent: {}
+[1.619458] (more_interfaces) CommandEnded: {'returncode': 0}
+[1.715122] (-) TimerEvent: {}
+[1.816097] (-) TimerEvent: {}
+[1.918667] (-) TimerEvent: {}
+[2.021404] (-) TimerEvent: {}
+[2.035818] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[2.081049] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/enrique/ros2_ws/build/more_interfaces'], 'cwd': '/home/enrique/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'enrique'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/enrique/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/enrique'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1751'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a7880583fb173689f9d572766a73d33'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/enrique/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'enrique'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'enrique'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/enrique/.dotnet/tools'), ('SESSION_MANAGER', 'local/enrique-Lenovo-ideapad-320S-14IKB:@/tmp/.ICE-unix/1751,unix/enrique-Lenovo-ideapad-320S-14IKB:/tmp/.ICE-unix/1751'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/32c1b5d0_d67b_48a5_80e2_4635282052d7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/enrique/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YFAYR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.258'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/enrique/ros2_ws/install/example_pkg:/home/enrique/ros2_ws/install/more_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/enrique/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a7880583fb173689f9d572766a73d33'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/enrique/ros2_ws/install/more_interfaces:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble')]), 'shell': False}
+[2.121466] (-) TimerEvent: {}
+[2.124120] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.125244] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[2.125984] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[2.126719] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[2.128514] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/point_array.h\n'}
+[2.131484] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.135273] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[2.136716] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__functions.h\n'}
+[2.137235] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__functions.c\n'}
+[2.138519] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__functions.c\n'}
+[2.139868] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__type_support.h\n'}
+[2.140709] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__struct.h\n'}
+[2.141195] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__struct.h\n'}
+[2.141604] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__type_support.h\n'}
+[2.141936] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__functions.h\n'}
+[2.142531] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/vector3_array.h\n'}
+[2.143266] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[2.143791] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[2.144102] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[2.144381] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[2.144658] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[2.145038] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.145328] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[2.145638] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__rosidl_typesupport_fastrtps_c.h\n'}
+[2.146788] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h\n'}
+[2.150717] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.152594] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[2.155342] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[2.157540] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[2.159982] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__struct.hpp\n'}
+[2.160359] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__traits.hpp\n'}
+[2.161048] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__builder.hpp\n'}
+[2.161456] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__builder.hpp\n'}
+[2.161797] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__traits.hpp\n'}
+[2.162114] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__struct.hpp\n'}
+[2.162564] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/vector3_array.hpp\n'}
+[2.162967] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/point_array.hpp\n'}
+[2.163279] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[2.163595] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[2.164241] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.164616] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[2.164967] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[2.165351] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.165865] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.166338] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.166880] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[2.167306] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[2.167668] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.168113] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[2.168316] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__type_support.c\n'}
+[2.168635] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__rosidl_typesupport_introspection_c.h\n'}
+[2.169127] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__rosidl_typesupport_introspection_c.h\n'}
+[2.169689] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__type_support.c\n'}
+[2.170071] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.170555] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[2.171081] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[2.171305] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[2.171488] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[2.171777] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__type_support.cpp\n'}
+[2.171953] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.172274] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__type_support.cpp\n'}
+[2.172712] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.173053] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.173961] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.174399] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[2.174747] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[2.175090] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.175405] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.175744] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.176055] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.176361] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.176673] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces\n'}
+[2.176990] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg\n'}
+[2.177297] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_point_array_s.c\n'}
+[2.177637] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_point_array.py\n'}
+[2.177951] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py\n'}
+[2.178264] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_vector3_array_s.c\n'}
+[2.178566] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_vector3_array.py\n'}
+[2.178901] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.179229] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.179522] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py\n'}
+[2.179802] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.180089] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.180378] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.180746] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so\n'}
+[2.181075] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.222032] (-) TimerEvent: {}
+[2.322917] (-) TimerEvent: {}
+[2.398022] (more_interfaces) StdoutLine: {'line': b"Listing '/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...\n"}
+[2.398561] (more_interfaces) StdoutLine: {'line': b"Listing '/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...\n"}
+[2.420115] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.422690] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.423704] (-) TimerEvent: {}
+[2.425558] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.427739] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[2.428577] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/msg/PointArray.idl\n'}
+[2.429307] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/msg/Vector3Array.idl\n'}
+[2.429999] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/msg/PointArray.msg\n'}
+[2.430625] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/msg/Vector3Array.msg\n'}
+[2.431239] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[2.431777] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[2.433794] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[2.434975] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.435554] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[2.436888] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[2.439534] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[2.442303] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[2.444894] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[2.445624] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[2.445869] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[2.446116] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[2.446797] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.447425] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.447686] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.448183] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.448726] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.449199] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.449791] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.450231] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.450874] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.451333] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.452103] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.452538] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.452920] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.453599] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.454157] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.455731] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.456147] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.457070] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.458406] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.458853] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.459231] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.459549] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.459888] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.460203] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.460770] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[2.461327] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[2.462055] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[2.467823] (more_interfaces) CommandEnded: {'returncode': 0}
+[2.524118] (-) TimerEvent: {}
+[2.626552] (-) TimerEvent: {}
+[2.727350] (-) TimerEvent: {}
+[2.828218] (-) TimerEvent: {}
+[2.930126] (-) TimerEvent: {}
+[3.034205] (-) TimerEvent: {}
+[3.080449] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[3.082392] (example_pkg) JobStarted: {'identifier': 'example_pkg'}
+[3.134550] (-) TimerEvent: {}
+[3.238542] (-) TimerEvent: {}
+[3.339606] (-) TimerEvent: {}
+[3.440439] (-) TimerEvent: {}
+[3.542585] (-) TimerEvent: {}
+[3.649198] (-) TimerEvent: {}
+[3.753262] (-) TimerEvent: {}
+[3.853995] (-) TimerEvent: {}
+[3.954612] (-) TimerEvent: {}
+[4.055564] (-) TimerEvent: {}
+[4.160197] (-) TimerEvent: {}
+[4.260743] (-) TimerEvent: {}
+[4.362005] (-) TimerEvent: {}
+[4.464192] (-) TimerEvent: {}
+[4.565103] (-) TimerEvent: {}
+[4.667191] (-) TimerEvent: {}
+[4.767773] (-) TimerEvent: {}
+[4.868807] (-) TimerEvent: {}
+[4.970516] (-) TimerEvent: {}
+[5.071566] (-) TimerEvent: {}
+[5.172466] (-) TimerEvent: {}
+[5.273779] (-) TimerEvent: {}
+[5.375720] (-) TimerEvent: {}
+[5.476314] (-) TimerEvent: {}
+[5.577245] (-) TimerEvent: {}
+[5.680170] (-) TimerEvent: {}
+[5.781816] (-) TimerEvent: {}
+[5.883003] (-) TimerEvent: {}
+[5.984753] (-) TimerEvent: {}
+[6.087152] (-) TimerEvent: {}
+[6.188325] (-) TimerEvent: {}
+[6.290348] (-) TimerEvent: {}
+[6.392644] (-) TimerEvent: {}
+[6.494258] (-) TimerEvent: {}
+[6.595071] (-) TimerEvent: {}
+[6.696714] (-) TimerEvent: {}
+[6.797345] (-) TimerEvent: {}
+[6.897965] (-) TimerEvent: {}
+[6.999224] (-) TimerEvent: {}
+[7.101693] (-) TimerEvent: {}
+[7.203527] (-) TimerEvent: {}
+[7.301250] (example_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/example_pkg', 'build', '--build-base', '/home/enrique/ros2_ws/build/example_pkg/build', 'install', '--record', '/home/enrique/ros2_ws/build/example_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/enrique/ros2_ws/src/example_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'enrique', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/enrique/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/enrique', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1751', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7a7880583fb173689f9d572766a73d33', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/enrique/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'enrique', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'enrique', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/enrique/.dotnet/tools', 'SESSION_MANAGER': 'local/enrique-Lenovo-ideapad-320S-14IKB:@/tmp/.ICE-unix/1751,unix/enrique-Lenovo-ideapad-320S-14IKB:/tmp/.ICE-unix/1751', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/32c1b5d0_d67b_48a5_80e2_4635282052d7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/enrique/.cache/dotnet_bundle_extract', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YFAYR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.258', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/enrique/ros2_ws/install/example_pkg:/home/enrique/ros2_ws/install/more_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/enrique/ros2_ws/build/example_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7a7880583fb173689f9d572766a73d33', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/enrique/ros2_ws/install/more_interfaces'}, 'shell': False}
+[7.309719] (-) TimerEvent: {}
+[7.412981] (-) TimerEvent: {}
+[7.513907] (-) TimerEvent: {}
+[7.615773] (-) TimerEvent: {}
+[7.717071] (-) TimerEvent: {}
+[7.817808] (-) TimerEvent: {}
+[7.918669] (-) TimerEvent: {}
+[8.019315] (-) TimerEvent: {}
+[8.120231] (-) TimerEvent: {}
+[8.222118] (-) TimerEvent: {}
+[8.323800] (-) TimerEvent: {}
+[8.424718] (-) TimerEvent: {}
+[8.525502] (-) TimerEvent: {}
+[8.626314] (-) TimerEvent: {}
+[8.727292] (-) TimerEvent: {}
+[8.828544] (-) TimerEvent: {}
+[8.929417] (-) TimerEvent: {}
+[9.031812] (-) TimerEvent: {}
+[9.133629] (-) TimerEvent: {}
+[9.222830] (example_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[9.226135] (example_pkg) StdoutLine: {'line': b'writing ../../build/example_pkg/example_pkg.egg-info/PKG-INFO\n'}
+[9.227313] (example_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/example_pkg/example_pkg.egg-info/dependency_links.txt\n'}
+[9.228309] (example_pkg) StdoutLine: {'line': b'writing entry points to ../../build/example_pkg/example_pkg.egg-info/entry_points.txt\n'}
+[9.228859] (example_pkg) StdoutLine: {'line': b'writing requirements to ../../build/example_pkg/example_pkg.egg-info/requires.txt\n'}
+[9.229915] (example_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/example_pkg/example_pkg.egg-info/top_level.txt\n'}
+[9.233772] (-) TimerEvent: {}
+[9.238276] (example_pkg) StdoutLine: {'line': b"reading manifest file '../../build/example_pkg/example_pkg.egg-info/SOURCES.txt'\n"}
+[9.247899] (example_pkg) StdoutLine: {'line': b"writing manifest file '../../build/example_pkg/example_pkg.egg-info/SOURCES.txt'\n"}
+[9.249102] (example_pkg) StdoutLine: {'line': b'running build\n'}
+[9.249439] (example_pkg) StdoutLine: {'line': b'running build_py\n'}
+[9.249818] (example_pkg) StdoutLine: {'line': b'copying example_pkg/publisherImage_node.py -> /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg\n'}
+[9.251953] (example_pkg) StdoutLine: {'line': b'running install\n'}
+[9.253326] (example_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.258367] (example_pkg) StdoutLine: {'line': b'copying /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg/publisherImage_node.py -> /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg\n'}
+[9.267786] (example_pkg) StdoutLine: {'line': b'byte-compiling /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg/publisherImage_node.py to publisherImage_node.cpython-310.pyc\n'}
+[9.270603] (example_pkg) StdoutLine: {'line': b'running install_data\n'}
+[9.271265] (example_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.278684] (example_pkg) StdoutLine: {'line': b"removing '/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.279962] (example_pkg) StdoutLine: {'line': b'Copying ../../build/example_pkg/example_pkg.egg-info to /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg-0.0.0-py3.10.egg-info\n'}
+[9.285175] (example_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.334349] (-) TimerEvent: {}
+[9.415845] (example_pkg) StdoutLine: {'line': b'Installing test_node script to /home/enrique/ros2_ws/install/example_pkg/lib/example_pkg\n'}
+[9.421366] (example_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/enrique/ros2_ws/build/example_pkg/install.log'\n"}
+[9.434437] (-) TimerEvent: {}
+[9.535126] (-) TimerEvent: {}
+[9.552769] (example_pkg) CommandEnded: {'returncode': 0}
+[9.592568] (example_pkg) JobEnded: {'identifier': 'example_pkg', 'rc': 0}
+[9.596539] (-) EventReactorShutdown: {}

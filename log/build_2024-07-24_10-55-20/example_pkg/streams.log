@@ -1,0 +1,24 @@
+[0.995s] Invoking command in '/home/enrique/ros2_ws/src/example_pkg': PYTHONPATH=/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_pkg build --build-base /home/enrique/ros2_ws/build/example_pkg/build install --record /home/enrique/ros2_ws/build/example_pkg/install.log --single-version-externally-managed install_data
+[1.384s] running egg_info
+[1.385s] writing ../../build/example_pkg/example_pkg.egg-info/PKG-INFO
+[1.385s] writing dependency_links to ../../build/example_pkg/example_pkg.egg-info/dependency_links.txt
+[1.385s] writing entry points to ../../build/example_pkg/example_pkg.egg-info/entry_points.txt
+[1.386s] writing requirements to ../../build/example_pkg/example_pkg.egg-info/requires.txt
+[1.386s] writing top-level names to ../../build/example_pkg/example_pkg.egg-info/top_level.txt
+[1.389s] reading manifest file '../../build/example_pkg/example_pkg.egg-info/SOURCES.txt'
+[1.391s] writing manifest file '../../build/example_pkg/example_pkg.egg-info/SOURCES.txt'
+[1.391s] running build
+[1.391s] running build_py
+[1.391s] copying example_pkg/publisherImage_node.py -> /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg
+[1.392s] running install
+[1.393s] running install_lib
+[1.394s] copying /home/enrique/ros2_ws/build/example_pkg/build/lib/example_pkg/publisherImage_node.py -> /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg
+[1.395s] byte-compiling /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg/publisherImage_node.py to publisherImage_node.cpython-310.pyc
+[1.396s] running install_data
+[1.396s] running install_egg_info
+[1.399s] removing '/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.400s] Copying ../../build/example_pkg/example_pkg.egg-info to /home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages/example_pkg-0.0.0-py3.10.egg-info
+[1.401s] running install_scripts
+[1.435s] Installing test_node script to /home/enrique/ros2_ws/install/example_pkg/lib/example_pkg
+[1.436s] writing list of installed files to '/home/enrique/ros2_ws/build/example_pkg/install.log'
+[1.476s] Invoked command in '/home/enrique/ros2_ws/src/example_pkg' returned '0': PYTHONPATH=/home/enrique/ros2_ws/build/example_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/enrique/ros2_ws/install/example_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_pkg build --build-base /home/enrique/ros2_ws/build/example_pkg/build install --record /home/enrique/ros2_ws/build/example_pkg/install.log --single-version-externally-managed install_data

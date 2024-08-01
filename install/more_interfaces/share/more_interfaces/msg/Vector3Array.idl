@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from more_interfaces/msg/Vector3Array.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module more_interfaces {
+  module msg {
+    struct Vector3Array {
+      sequence<geometry_msgs::msg::Vector3> vectors;
+    };
+  };
+};

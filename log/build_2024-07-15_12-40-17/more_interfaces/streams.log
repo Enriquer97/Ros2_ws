@@ -1,0 +1,256 @@
+[0.010s] Invoking command in '/home/enrique/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake /home/enrique/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/enrique/ros2_ws/install/more_interfaces
+[0.187s] -- The C compiler identification is GNU 11.4.0
+[0.322s] -- The CXX compiler identification is GNU 11.4.0
+[0.332s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.420s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.420s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.425s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.702s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.798s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.840s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.846s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.855s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.873s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.030s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.344s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.010s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.012s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.041s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.041s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.041s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.065s] -- Found PythonExtra: .so  
+[2.136s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.174s] -- Added test 'lint_cmake' to check CMake code style
+[2.176s] -- Added test 'xmllint' to check XML markup files
+[2.179s] -- Configuring done
+[2.223s] -- Generating done
+[2.226s] -- Build files have been written to: /home/enrique/ros2_ws/build/more_interfaces
+[2.237s] Invoked command in '/home/enrique/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake /home/enrique/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/enrique/ros2_ws/install/more_interfaces
+[2.240s] Invoking command in '/home/enrique/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enrique/ros2_ws/build/more_interfaces -- -j8 -l8
+[2.285s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.297s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.308s] [  5%] Built target ament_cmake_python_copy_more_interfaces
+[2.639s] running egg_info
+[2.640s] creating more_interfaces.egg-info
+[2.640s] writing more_interfaces.egg-info/PKG-INFO
+[2.640s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[2.641s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[2.641s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.646s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.648s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.701s] [  7%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/point_array__functions.c.o[0m
+[2.701s] [ 10%] Built target ament_cmake_python_build_more_interfaces_egg
+[2.701s] [ 10%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/vector3_array__functions.c.o[0m
+[2.707s] [ 10%] Built target more_interfaces__cpp
+[2.719s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.719s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.724s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.791s] [ 20%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[2.839s] [ 20%] Built target more_interfaces__rosidl_generator_c
+[2.857s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.857s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.858s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.077s] [ 30%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/point_array__type_support.cpp.o[0m
+[3.085s] [ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/vector3_array__type_support.cpp.o[0m
+[3.103s] [ 35%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/point_array__type_support.cpp.o[0m
+[3.104s] [ 38%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/vector3_array__type_support.cpp.o[0m
+[3.293s] [ 41%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[3.390s] [ 43%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/point_array__type_support.cpp.o[0m
+[3.474s] [ 46%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/vector3_array__type_support.cpp.o[0m
+[3.527s] [ 48%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/point_array__type_support.c.o[0m
+[3.532s] [ 51%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/point_array__type_support_c.cpp.o[0m
+[3.539s] [ 53%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[3.639s] [ 53%] Built target more_interfaces__rosidl_typesupport_c
+[3.657s] [ 56%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/vector3_array__type_support.c.o[0m
+[3.674s] [ 58%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/vector3_array__type_support_c.cpp.o[0m
+[3.718s] [ 61%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/vector3_array__type_support.cpp.o[0m
+[3.733s] [ 64%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[3.757s] [ 66%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.844s] [ 66%] Built target more_interfaces__rosidl_typesupport_cpp
+[3.884s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[4.080s] [ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.255s] [ 69%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[4.274s] [ 71%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.388s] [ 71%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[4.453s] [ 74%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.551s] [ 74%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.575s] [ 74%] Built target more_interfaces
+[4.599s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.995s] [ 76%] Built target more_interfaces__py
+[5.017s] [ 82%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_point_array_s.c.o[0m
+[5.017s] [ 82%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_vector3_array_s.c.o[0m
+[5.171s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[5.219s] [ 84%] Built target more_interfaces__rosidl_generator_py
+[5.243s] [ 92%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.243s] [ 92%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.243s] [ 92%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.387s] [100%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.388s] [100%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.388s] [100%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.434s] [100%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[5.434s] [100%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.434s] [100%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.447s] Invoked command in '/home/enrique/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake --build /home/enrique/ros2_ws/build/more_interfaces -- -j8 -l8
+[5.548s] Invoking command in '/home/enrique/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enrique/ros2_ws/build/more_interfaces
+[5.557s] -- Install configuration: ""
+[5.557s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[5.557s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[5.559s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[5.559s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/point_array.h
+[5.559s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.559s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[5.560s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__functions.h
+[5.560s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__functions.c
+[5.560s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__functions.c
+[5.560s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__type_support.h
+[5.560s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__struct.h
+[5.561s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__struct.h
+[5.561s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__type_support.h
+[5.561s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__functions.h
+[5.561s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/vector3_array.h
+[5.561s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[5.562s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[5.562s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[5.563s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[5.563s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[5.563s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[5.563s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.563s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[5.564s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__rosidl_typesupport_fastrtps_c.h
+[5.564s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[5.564s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.565s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.565s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[5.565s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[5.565s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[5.565s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__struct.hpp
+[5.565s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__traits.hpp
+[5.565s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__builder.hpp
+[5.565s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__builder.hpp
+[5.565s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__traits.hpp
+[5.566s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__struct.hpp
+[5.566s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/vector3_array.hpp
+[5.566s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/point_array.hpp
+[5.566s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[5.566s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[5.566s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.566s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[5.566s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[5.566s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.567s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.567s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.568s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.568s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[5.568s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[5.568s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.569s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[5.569s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__type_support.c
+[5.569s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__rosidl_typesupport_introspection_c.h
+[5.569s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[5.569s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__type_support.c
+[5.569s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[5.570s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.570s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[5.570s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[5.570s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[5.571s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[5.571s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[5.571s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__type_support.cpp
+[5.571s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[5.571s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__type_support.cpp
+[5.571s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/vector3_array__rosidl_typesupport_introspection_cpp.hpp
+[5.572s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.573s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.573s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[5.574s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.574s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[5.574s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[5.575s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[5.575s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.575s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.575s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.575s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.576s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[5.576s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[5.576s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_point_array_s.c
+[5.576s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_point_array.py
+[5.576s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[5.576s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_vector3_array_s.c
+[5.577s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_vector3_array.py
+[5.577s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.577s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.577s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[5.578s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.578s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.578s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.578s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[5.578s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[5.616s] Listing '/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[5.616s] Compiling '/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...
+[5.616s] Listing '/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[5.616s] Compiling '/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py'...
+[5.616s] Compiling '/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_point_array.py'...
+[5.616s] Compiling '/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_vector3_array.py'...
+[5.621s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.622s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.622s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.622s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.623s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.623s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.623s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[5.624s] -- Set runtime path of "/home/enrique/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[5.624s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/msg/PointArray.idl
+[5.624s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/msg/Vector3Array.idl
+[5.624s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/msg/PointArray.msg
+[5.624s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/msg/Vector3Array.msg
+[5.624s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[5.625s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[5.625s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[5.625s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[5.625s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[5.625s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[5.625s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[5.625s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[5.625s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[5.626s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[5.626s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[5.626s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[5.626s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[5.627s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.627s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.627s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.627s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[5.628s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.628s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.628s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.628s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.629s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[5.629s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.629s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.629s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.629s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[5.630s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.630s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[5.630s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.630s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.630s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.630s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.631s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.631s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.631s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.631s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.631s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[5.631s] -- Installing: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[5.632s] -- Up-to-date: /home/enrique/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[5.635s] Invoked command in '/home/enrique/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enrique/ros2_ws/install/example_pkg:/opt/ros/humble /usr/bin/cmake --install /home/enrique/ros2_ws/build/more_interfaces
